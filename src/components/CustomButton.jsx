@@ -6,10 +6,10 @@
  * (For styling purposes, make sure it renders an HTML <button> element)
  * Your button component should take a `text` prop
  */
-function CustomButton({text}) { // props.text
+function CustomButton({children}) { // props.text
   return (
     <main>
-      <button>{text}</button>
+      <button>{children}</button>
       {/* <input type="submit" value={text} /> */}
     </main>
   )
